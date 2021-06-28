@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="fl[gF_zhbE`dE57qBWk?">mySprite</variable><variable type="KIND_SpriteKind" id="aC~kgZ=-hL!Uhc;h3o`Z">Player</variable><variable type="KIND_SpriteKind" id="t908.ei2{46f28.kpJ9h">Projectile</variable><variable type="KIND_SpriteKind" id="%a+zHoy0$eSQy[#uY[`e">Food</variable><variable type="KIND_SpriteKind" id="~3IMQKx0e+DTL`mA|WTl">Enemy</variable></variables><block type="pxt-on-start" id=".(T()u:V_6r9(kEP2!B-" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="s%5=z2ll*0bP3RsOS|*~"><field name="VAR" id="fl[gF_zhbE`dE57qBWk?">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="mklR=zQx?d+=Zjf,6cds"><value name="img"><shadow type="screen_image_picker" id="((;laSb{3m))iAWVWo~@"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . 5 5 5 5 5 5 5 . . . . . 
+. . . 5 5 5 5 5 5 5 5 5 . . . . 
+. . 5 5 5 5 5 5 5 5 5 5 5 . . . 
+. 5 5 5 5 5 5 5 5 5 5 5 5 5 . . 
+. 5 5 5 5 5 5 5 5 5 5 5 5 5 . . 
+. 5 5 1 1 1 5 5 5 1 1 1 5 5 . . 
+. 5 5 1 f 1 5 5 5 1 f 1 5 5 . . 
+. 5 5 1 1 1 5 5 5 1 1 1 5 5 . . 
+. 5 5 5 5 5 5 5 5 5 5 5 5 5 . . 
+. 5 5 2 2 2 2 2 2 2 2 2 5 5 . . 
+. 5 5 2 2 2 2 2 2 2 2 2 5 5 . . 
+. . 5 5 5 5 5 5 5 5 5 5 5 . . . 
+. . . 5 5 5 5 5 5 5 5 5 . . . . 
+. . . . 5 5 5 5 5 5 5 . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"((;laSb{3m))iAWVWo~@"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="J+!aM!h,lZebV7?6`jPs"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="C[bBPPcA4p{ig)VOO2};"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="+Mx7v%%CC[EX3A]]@ZZz"><field name="VAR" id="fl[gF_zhbE`dE57qBWk?">mySprite</field></block></value><value name="vx"><shadow type="math_number" id="P!zSH-Mz[5#KKI11QLn="><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number" id="y^ZZjbWPPOQ[-47.#^;J"><field name="NUM">50</field></shadow></value></block></next></block></statement></block></xml>
